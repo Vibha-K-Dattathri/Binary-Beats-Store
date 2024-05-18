@@ -153,3 +153,30 @@ body {
   color: white;
   text-align: center;
 }
+
+.main-logo{
+  height: 40px;
+}
+
+.text-body-secondary {
+  --bs-text-opacity: 0;
+  color: #fff !important;
+}
+
+.row-footer {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1* var(--bs-gutter-y));
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.footer-logo{
+  height: 60px;
+}
+
+.dark-background{
+  background-color: #212529;
+}
